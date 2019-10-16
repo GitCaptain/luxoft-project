@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/luxoft.dir/main.cpp.o  -o luxoft 

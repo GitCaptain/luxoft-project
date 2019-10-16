@@ -1,0 +1,3 @@
+/home/alexander/projects/c++/luxoft/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alexander/projects/c++/luxoft/cmake-build-debug/CMakeFiles/luxoft.dir
+/home/alexander/projects/c++/luxoft/cmake-build-debug/CMakeFiles/edit_cache.dir
