@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/luxoft.dir/main.cpp.o  -o luxoft 
+/usr/bin/c++   -pthread -g   CMakeFiles/luxoft.dir/main.cpp.o  -o luxoft 
