@@ -56,13 +56,13 @@ void get_hash_and_write_thread(std::shared_ptr<char[]> str, const int thread_num
 
 int main(int argc, char **argv){
 
-    const int BYTES_PER_MEGABYTE = 1024;
+    const int BYTES_PER_MEGABYTE = 1024 * 1024;
 
     try{
         if(argc < 3)
             throw std::invalid_argument("Paths to input file and output file should be given");
 
-        std::ifstream input_file(argv[1], std::ios::in);// | std::ios::binary);
+        std::ifstream input_file(argv[1], std::ios::in | std::ios::binary);
         if(!input_file.is_open())
             throw FileException("Can't access input file");
 
