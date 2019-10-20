@@ -4,4 +4,4 @@ project(luxoft)
 set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} -pthread")
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(luxoft main.cpp)
+add_executable(luxoft main.cpp pobochniy.cpp)
